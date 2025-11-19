@@ -13,11 +13,15 @@ export const buttonVariant = cva(
       disabled: {
         true: "opacity-50 pointer-events-none",
       },
+      handling: {
+        true: "pointer-events-none",
+      },
     },
     defaultVariants: {
       variant: "primary",
       size: "md",
       disabled: false,
+      handling: false,
     },
   }
 );

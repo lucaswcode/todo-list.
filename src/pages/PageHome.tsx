@@ -1,5 +1,5 @@
 import { Container } from "../components/Container";
-import { TaskList } from "../core-components/TaskList";
+import { TasksList } from "../core-components/TasksList";
 import { TasksSummary } from "../core-components/TasksSummary";
 
 export function PageHome() {
@@ -8,7 +8,7 @@ export function PageHome() {
       <header className="flex items-center justify-between">
         <TasksSummary />
       </header>
-      <TaskList />
+      <TasksList />
     </Container>
   );
 }
